@@ -20,27 +20,27 @@ function FixOfflinePrinter() {
         <nav className="hidden bg-[#007CBF] text-white h-15 md:flex lg:flex items-center px-6">
           <ul className="flex gap-5">
             <li>
-              <a href="https://smartdeviceassistant.com/fix-an-offline-printer/">
+              <a href="/FixOfflinePrinter">
                 Printer Offline
               </a>
             </li>
             <li>
-              <a href="https://smartdeviceassistant.com/how-to-setup-your-device/">
+              <a href="/PrinterSetup">
                 Printer Setup
               </a>
             </li>
             <li>
-              <a href="https://smartdeviceassistant.com/4-methods-of-scanning-documents/">
+              <a href="/ScannerSetup">
                 Scanner Setup
               </a>
             </li>
             <li>
-              <a href="https://smartdeviceassistant.com/privacypolicy/">
+              <a href="/PrivacyPolicy">
                 Privacy Policy
               </a>
             </li>
             <li>
-              <a href="https://smartdeviceassistant.com/disclaimer/">
+              <a href="ScannerSetup">
                 Disclaimer
               </a>
             </li>
@@ -59,31 +59,31 @@ function FixOfflinePrinter() {
         {isOpen && (
           <div className="md:hidden bg-[#007CBF] text-white px-6 py-4 space-y-3">
             <a
-              href="https://smartdeviceassistant.com/fix-an-offline-printer/"
+              href="/FixOfflinePrinter"
               className="block hover:text-gray-200"
             >
               Printer Offline
             </a>
             <a
-              href="https://smartdeviceassistant.com/how-to-setup-your-device/"
+              href="/PrinterSetup"
               className="block hover:text-gray-200"
             >
               Printer Setup
             </a>
             <a
-              href="https://smartdeviceassistant.com/4-methods-of-scanning-documents/"
+              href="/ScannerSetup"
               className="block hover:text-gray-200"
             >
               Scanner Setup
             </a>
             <a
-              href="https://smartdeviceassistant.com/privacypolicy/"
+              href="/PrivacyPolicy"
               className="block hover:text-gray-200"
             >
               Privacy Policy
             </a>
             <a
-              href="https://smartdeviceassistant.com/disclaimer/"
+              href="/ScannerSetUp"
               className="block hover:text-gray-200"
             >
               Disclaimer
