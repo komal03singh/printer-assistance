@@ -3,12 +3,52 @@ import React from "react";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
-
+import { motion, AnimatePresence } from "framer-motion";
+import { useRouter } from "next/navigation";
 function DownloadPrinterDrivers() {
+
   const [isOpen, setIsOpen] = useState(false);
+  const [showPopup, setShowPopup] = useState(false);
+  const router = useRouter();
+
+  const handleInstallClick = () => {
+    setShowPopup(true);
+
+    setTimeout(() => {
+      setShowPopup(false);
+      router.push("/DriverInstallation"); 
+    }, 15000);
+  };
 
   return (
-    <div>
+    <div className="relative">
+
+      {showPopup && (
+        <div className="fixed inset-0 bg-black/70 flex flex-col items-center justify-center z-50">
+          <div className="bg-white rounded-xl p-8 shadow-xl flex flex-col items-center">
+            <Image
+              src="/loading.gif" 
+              alt="loading"
+              width={80}
+              height={80}
+              className="mb-4"
+            />
+            <p className="text-lg font-light text-gray-700">
+              Installing HP Smart... Please wait
+            </p>
+            <div className="w-64 mt-4 bg-gray-200 rounded-full h-2 overflow-hidden">
+              <motion.div
+                initial={{ width: 0 }}
+                animate={{ width: "100%" }}
+                transition={{ duration: 15, ease: "linear" }}
+                className="h-2 bg-[#080880]"
+              ></motion.div>
+            </div>
+          </div>
+        </div>
+      )}
+
+
       <div className="h-screen w-full">
         <nav className="hidden md:hidden lg:flex h-[10%] items-center px-15">
           <ul className="flex gap-14 font-semibold">
@@ -81,7 +121,7 @@ function DownloadPrinterDrivers() {
                 className="w-full md:w-1/2 lg:w-4/5 border border-black/20 bg-white px-4 py-2 rounded-xl md:text-lg"
                 placeholder='Enter your product name here. Example:"ENVY 4520"'
               />
-              <a className="px-4 py-2 w-18 bg-black text-white rounded-xl md:text-lg" href="#">
+              <a className="px-4 py-2 w-18 bg-black text-white rounded-xl md:text-lg" onClick={handleInstallClick} href="#">
                 Next
               </a>
             </div>

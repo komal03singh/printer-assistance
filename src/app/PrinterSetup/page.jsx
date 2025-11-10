@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 function PrinterSetup() {
 
-    const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div>
@@ -24,7 +24,7 @@ function PrinterSetup() {
           <ul className="flex gap-5">
 						<li><a href="/FixOfflinePrinter">Printer Offline</a></li>
             <li><a href="/PrinterSetup">Printer Setup</a></li>
-            <li><a href="/ScannerSetup">Scanner Setup</a></li>
+            <li><a href="/ScannerSetUp">Scanner Setup</a></li>
             <li><a href="/PrivacyPolicy">Privacy Policy</a></li>
             <li><a href="/Disclaimer">Disclaimer</a></li>
 					</ul>
@@ -55,7 +55,7 @@ function PrinterSetup() {
               Printer Setup
             </a>
             <a
-              href="/ScannerSetup"
+              href="/ScannerSetUp"
               className="block hover:text-gray-200"
             >
               Scanner Setup

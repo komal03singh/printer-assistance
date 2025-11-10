@@ -40,7 +40,7 @@ function FixOfflinePrinter() {
               </a>
             </li>
             <li>
-              <a href="ScannerSetup">
+              <a href="/Disclaimer">
                 Disclaimer
               </a>
             </li>
@@ -122,7 +122,7 @@ function FixOfflinePrinter() {
           </div>
         </div>
 
-        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 px-8">
+        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 lg:px-8">
           <div className="w-full lg:w-3/5 px-3">
             <h2 className="text-xl lg:text-3xl font-semibold ">
               Step 2 :
@@ -172,7 +172,7 @@ function FixOfflinePrinter() {
           </div>
         </div>
 
-        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 px-8">
+        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 lg:px-8">
           <div className="w-full lg:w-3/5 px-3">
             <h2 className="text-xl lg:text-3xl font-semibold ">
               Step 4 :
@@ -224,7 +224,7 @@ function FixOfflinePrinter() {
           </div>
         </div>
 
-        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 px-8">
+        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 lg:px-8">
           <div className="w-full lg:w-3/5 px-3">
             <h2 className="text-xl lg:text-3xl font-semibold ">
               Step 6 :
@@ -267,7 +267,7 @@ function FixOfflinePrinter() {
           </div>
         </div>
 
-        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 px-8">
+        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 lg:px-8">
           <div className="w-full lg:w-3/5 px-3">
             <h2 className="text-xl lg:text-3xl font-semibold ">
               Step 8 :
@@ -317,7 +317,7 @@ function FixOfflinePrinter() {
           </div>
         </div>
 
-        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 px-8">
+        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 lg:px-8">
           <div className="w-full lg:w-3/5 px-3">
             <h2 className="text-xl lg:text-3xl font-semibold ">
               Step 10 :
@@ -363,7 +363,7 @@ function FixOfflinePrinter() {
           </div>
         </div>
 
-        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 px-8">
+        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 lg:px-8">
           <div className="w-full lg:w-3/5 px-3">
             <h2 className="text-xl lg:text-3xl font-semibold ">
               Step 12 :
@@ -448,7 +448,7 @@ function FixOfflinePrinter() {
           </div>
         </div>
 
-        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 px-8">
+        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 lg:px-8">
           <div className="w-full lg:w-3/5 px-3">
             <h2 className="text-xl lg:text-3xl font-semibold ">
               Step 2 :
@@ -498,7 +498,7 @@ function FixOfflinePrinter() {
           </div>
         </div>
 
-        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 px-8">
+        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 lg:px-8">
           <div className="w-full lg:w-3/5 px-3">
             <h2 className="text-xl lg:text-3xl font-semibold ">
               Step 4 :
@@ -544,7 +544,7 @@ function FixOfflinePrinter() {
           </div>
         </div>
 
-        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 px-8">
+        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 lg:px-8">
           <div className="w-full lg:w-3/5 px-3">
             <h2 className="text-xl lg:text-3xl font-semibold ">
               Step 6 :
@@ -584,7 +584,7 @@ function FixOfflinePrinter() {
           </div>
         </div>
 
-        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 px-8">
+        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 lg:px-8">
           <div className="w-full lg:w-3/5 px-3">
             <h2 className="text-xl lg:text-3xl font-semibold ">
               Step 8 :
@@ -630,7 +630,7 @@ function FixOfflinePrinter() {
           </div>
         </div>
 
-        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 px-8">
+        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 lg:px-8">
           <div className="w-full lg:w-3/5 px-3">
             <h2 className="text-xl lg:text-3xl font-semibold ">
               Step 10 :
@@ -676,7 +676,7 @@ function FixOfflinePrinter() {
           </div>
         </div>
 
-        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 px-8">
+        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 lg:px-8">
           <div className="w-full lg:w-3/5 px-3">
             <h2 className="text-xl lg:text-3xl font-semibold ">
               Step 12 :
@@ -722,7 +722,7 @@ function FixOfflinePrinter() {
           </div>
         </div>
 
-        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 px-8">
+        <div className="flex-col flex lg:flex-row-reverse w-full mt-10 gap-3 lg:px-8">
           <div className="w-full lg:w-3/5 px-3">
             <h2 className="text-xl lg:text-3xl font-semibold ">
               Step 14 :
