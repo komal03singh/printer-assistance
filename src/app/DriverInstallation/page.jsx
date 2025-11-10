@@ -2,7 +2,7 @@ import React from "react";
 
 export default function DriverInstallation() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-[#2B6CA3] px-4">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-[#007CBF] px-4">
       <div className="text-center text-white">
         <h1 className="text-4xl md:text-5xl font-semibold mb-4">
           Setup Failed - HP Smart
@@ -21,7 +21,7 @@ export default function DriverInstallation() {
           printer and void the product warranty.
         </p>
 
-        <button className="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md">
+        <button className="bg-black/80 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:cursor-pointer">
           Contact Live Chat
         </button>
       </div>
